@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Orbitron&family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Orbitron&family=Roboto+Condensed:wght@300&family=Roboto:wght@500&display=swap");
+body {
+  background: black;
+  color: white;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Roboto Condensed";
+  line-height: 65px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+header {
+  background: black;
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  border-bottom: 1px solid #44d62c;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 4em;
+}
+li a {
+  text-decoration: none;
+  color: #888;
+  font-family: "Roboto Condensed";
+}
+#logo {
+  width: 2.5vw;
+  position: relative;
+    top: 10px;
+}
+li {
+  list-style: none;
+  padding: 3vw;
+}
+.pic {
+  position: relative;
+  right: 25%;
+  border-bottom: 8px solid #555;
+  z-index: 0;
+}
+li a:hover {
+  color: white;
+}
+.cart {
+  size: 10px;
+}
+.sale {
+  position: relative;
+  top: 4em;
+  z-index: 1;
+  text-align: center;
+  font-family: "Roboto Condensed";
+  background: #555;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p a {
+  color: white;
+  text-decoration: none;
+}
+p a:hover {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 350%;
+  font-family: Roboto;
+  text-align:center
+}
+.flex-one {
+  border: 0;
+  position: absolute;
+  top: 10em;
+  flex-direction: column;
+  width: 100vw;
+  height: fit-content;
+  z-index: 1;
+}
+h2 {
+  font-size: 200%;
+}
+.green {
+  color: #44d62c;
+}
+h3,
+.green {
+  font-size: 150%;
+  font-weight: bolder;
+}
+.heading_top3 a:hover {
+  text-decoration: underline;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px 10px;
+  background: rgb(48, 47, 47);
+  line-height: 0;
+  position: relative;
+  bottom: 3.5em;
+}
+.grid-items {
+  width: 50vw;
+}
+.flex-two {
+  top: 50em;
+}
+.flex-three {
+  top: 95em;
+}
+.grid-flex {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+}
+.grid-complex {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  position: absolute;
+  top: 140em;
+  row-gap: 18.5vw;
+}
+.flex-four {
+  flex-direction: column;
+  width: 50vw;
+  height: fit-content;
+  z-index: 1;
+}
+.flex-four>h1{
+    font-size:250%
+}
+.flex-four>h2{
+    font-size:150%
+}
+.flex-four{
+    line-height:50px
+}
+.flex-four>h3{
+    font-size:100%
+}
+.grid_footer{
+    display:grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+}
+footer{
+    line-height:0px;
+    background:#111;
+    height:65vh;
+    position:relative;
+    bottom:57px;
+}
+.grid_footer>ul>li>a{
+    color:#999
+}
+.grid_footer>ul>li>a:hover{
+    text-decoration: underline;
+    color:white
+}
+.grid_footer>ul>li{
+    margin: -40px 0px;
+    font-size: 15px;
+}
+header>nav>ul>li{
+    line-height:0;
+}
+.grid_footer>ul{
+    position:relative;
+    top:25px
+}
+.border-bottom{
+    border-bottom:10px solid rgb(48, 47, 47)
+}
+.icons_green{
+    color:#44d62c;
+    transform: translate(80vw,-37.5vh);
+}
+.flex_icons>a>i{
+    padding:20px;
+    transform: translateY(-35px);
+    color:#44d62c
+}
+.circle{
+    width:30px;height:30px;
+    border-radius:50%;
+    border:1px solid #44d62c
+}
+.flex_circles{
+    display:flex;
+    justify-content: space-between;
+    width:142.5px;
+    transform: translate(10px,10px);
+}
+.line{
+    height:2px;
+    width:80vw;
+    margin:auto;
+    background:#555
+}
+.left{
+    text-align: left;
+    color:#888;
+    margin-left:50px;
+    transform:translateY(35px)
+}
+.right{
+    text-align:right;
+    transform:translateY(35px);
+    margin-right: 50px;
+}
+.underline{
+    color:#888
+}
+.underline:hover{
+    text-decoration: underline;
+    color:white
+}
+.end{
+    height:9vh;
+    width:100vw;
+    background:#111;
+    position:absolute;top:3835px;
+}
+.background_image_3{
+    transform:translateY(-27px);
+}
+.alert{
+    position:fixed;
+    top:5em;
+    right:10em;
+    height: 200px;
+    z-index:20
+}
