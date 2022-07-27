@@ -243,7 +243,7 @@ header>nav>ul>li{
   width: 10px;
 }
 ::-webkit-scrollbar-thumb{
-  background:#2cd6cd73;
+  background:#2cd6cd6b;
   border-radius:100px
 }
 ::-webkit-scrollbar-track{
